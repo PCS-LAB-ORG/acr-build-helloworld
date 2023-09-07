@@ -19,7 +19,7 @@ jobs:
           env:
             PRISMA_API_URL: https://api2.prismacloud.io
           with:
-          api-key: ${{ secrets.BC_API_KEY }}
+            api-key: ${{ secrets.BC_API_KEY }}
 
         - name: 'Login via Azure CLI'
           uses: azure/login@v1
